@@ -1,3 +1,14 @@
+'''
+--------------------------------
+작성자: 이슬
+작성목적: SKALA 데이터분석 및 AIOps 과목 [종합 실습] 과제 수행
+작성일: 2026-07-20
+
+변경사항 내역
+- 2026-07-20 / 최초 버전 작성 / 비동기 수집, 스키마 검증, 저장 및 성능 비교 코드 작성
+-----------------------
+'''
+
 import asyncio
 import httpx
 from pydantic import BaseModel, Field, ValidationError
