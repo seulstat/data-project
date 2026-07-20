@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.coverage
+
+# 데이터 파이프라인 실행 결과 파일 제외
+*_data.csv
+*_data.parquet
