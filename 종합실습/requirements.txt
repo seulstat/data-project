@@ -1,0 +1,6 @@
+httpx
+pydantic>=2.0
+pandas
+pyarrow
+pytest
+ruff
